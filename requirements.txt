@@ -6,3 +6,4 @@ haversine==2.3.1
 keras==2.4.3
 Jinja2 == 2.11.3
 gunicorn
+tensorflow
