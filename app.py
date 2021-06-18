@@ -13,7 +13,7 @@ from sklearn.preprocessing import StandardScaler
 #%%
 # importing prediction input and sequencing it
 
-all_data = pd.read_csv('./data/input_for_app.csv')
+all_data = pd.read_csv('data/input_for_app.csv')
 all_data = all_data.iloc[:,1:]
 
 #%%
