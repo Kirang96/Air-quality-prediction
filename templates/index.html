@@ -28,20 +28,14 @@
     <div class="container">
 
         <div class="row text-center my-3 px-2">
-            <h2 class="mx-auto head">AIR QUALITY MODELLING USING DEEP LEARNING:<br> A CASE STUDY OF KOCHI</h2>
+            <h2 class="mx-auto head">AIR QUALITY MODELLING USING DEEP LEARNING:</h2>
+            <h3 class="mx-auto head">A CASE STUDY OF KOCHI</h3>
 
-            <p1 class="text mt-2"> The air quality index (AQI) is an index for reporting air quality on a daily basis.
-                It is
-                a measure of how air pollution affects one's health within a short time period. The purpose of the AQI
-                is to help people know how the local air quality impacts their health.</p1>
-            <br>
-            <p1 class="text">Different countries use different point scales to report air quality. For instance,
-                the United States uses a 500 point scale, wherein rating between 0 and 50 is considered good. Rating
-                between 301 to 500 range is deemed hazardous. India too follows that the 500 point scale. Every day
-                monitors record concentrations of the major pollutants. These raw measurements are converted into a
-                separate AQI value for each pollutant (ground-level ozone, particle pollution, carbon monoxide, and
-                sulfur dioxide) using standard formulae developed by EPA. The highest of these AQI values are reported
-                as the AQI value for that day.</p1>
+            <p1 class="text mt-2"> Want to know how polluted is your kochi city? Check out the air quality index by selecting the date and location of your nearest place.  
+            Air Quality Index is a standard by the government officials to easily communicate the status of air pollution and its effects on human health to the common people.<br>
+             AQI is a 500 point scale and is different for different countries. The higher the AQI value, the greater the air pollution is and greater concern to human health. 
+             So check your AQI regularly to take control measures and thereby reducing risks on health.</p1>
+
         </div>
 
         <div class="row my-5">
@@ -57,13 +51,34 @@
                             <br>
                             <select id="location" name="loc" class="btn border btn-border btn-lg">
                                 <option value="" disabled selected>Location:</option>
-                                <option value="3.7211470799501982">Vytilla</option>
-                                <option value="12.74030565662872">Eloor</option>
-                                <!--<option value="12.20607688061421">Eloor</option> -->
-                                <option value="6.9060388091203535">Irumpanam</option>
-                                <option value="9.710142421327228">Kalamassery</option>
-                                <option value="0.7143165383852024">MG</option>
-                                <option value="0.0049128673332182">South</option>
+                                <option value="9.95823,76.32523">Vytilla</option>
+                                <option value="10.07969,76.29677">Eloor 1</option>
+                                <option value="10.07435,76.30394">Eloor2</option>
+                                <option value="9.98793,76.35069">Irumpanam</option>
+                                <option value="10.0502,76.31237">Kalamassery</option>
+                                <option value="9.96291,76.28591">MG</option>
+                                <option value="9.96519,76.29201">South</option>
+                                <!-- new ones -->
+                                <option value="9.9921,76.3019">Kaloor</option>
+                                <option value="10.023676,76.311624">Edapally</option>
+                                <option value="10.0159,76.3419">Kakkanad</option>
+                                <option value="10.0038,76.3427">CSEZ</option>
+                                <option value="10.0762,76.3261">Panthalam</option>
+                                <option value="10.0014,76.3101">Palarivattom</option>
+                                <option value="9.948683,76.346362">Thrippunithara</option>
+                                <option value="9.9368,76.3180">Maradu</option>
+                                <option value="9.9542,76.3024">Kadavanthra</option>
+                                <option value="9.9422,76.3002">Thevara</option>
+                                <option value="10.1768,76.4751">Cheranellur</option>
+                                <option value="10.0534,76.3029">Manjummel</option>
+                                <option value="10.0119,76.3673">Smart City Kochi</option>
+                                <option value="10.0327,76.331">Thrikkakara</option>
+                                <option value="9.9772,76.2773">Marine Drive</option>
+                                <option value="9.9474,76.2723">Kochi Naval Airport</option>
+                                <option value="9.9578,76.2555">Mattanchery</option>
+                                <option value="9.9658,76.2421">Fort Kochi</option>
+                                <option value="9.9164,76.2914">Edakochi</option>
+                                
                             </select>
                             <br><br>
                             <button type="submit" class="btn btn-dark" value="submit">PREDICT</button>
@@ -72,17 +87,7 @@
                 </div>
             </div>
 
-            <div class="col result_card">
-                <div class="card border-light" style="background-color: {{ color }};">
-                    <div class="card-body">
-                        <h3 class="head text-light mt-2">AIR QUALITY INDEX IN YOUR AREA : {{ prediction }}</h1>
-                            <h3 class="head text-light">AIR QUALITY INDEX CATEGORY : {{result}}</h3>
-                            <br>
-                            <p1 class="text text-center text-light">{% autoescape false %} {{ text }} {% endautoescape %}
-</p1>
-                    </div>
-                </div>
-            </div>
+
         </div>
 
         <div class="row my-5 px-2">
@@ -90,33 +95,20 @@
             <p1 class="text">
                 <span class="bold">Good (0–50)</span> - Minimal Impact.
                 <br><br>
-                <span class="bold">Satisfactory (51–100)</span> - May cause minor breathing difficulties in sensitive
-                people.
+                <span class="bold">Satisfactory (51–100)</span> - May cause minor breathing discomfort to sensitive people.
                 <br><br>
-                <span class="bold">Moderately polluted (101–200)</span> - May cause breathing difficulties in people
-                with lung
-                disease like
-                asthma, and discomfort to people with heart disease, children and older adults.
+                <span class="bold">Moderate (101–200)</span> - May cause minor breathing discomfort to the people with lung diseases such as asthma and discomfort to people with heart disease, children and other adults.
                 <br><br>
-                <span class="bold">Poor (201–300)</span> - May cause breathing difficulties in people on prolonged
-                exposure, and
-                discomfort to
-                people with heart disease
+                <span class="bold">Poor (201–300)</span> - May cause minor breathing discomfort to the people on prolonged exposure and discomfort to people with heart diseases with short exposure.
                 <br><br>
-                <span class="bold">Very Poor (301–400)</span> - May cause respiratory illness in people on prolonged
-                exposure.
-                Effect may be more
-                pronounced in people with lung and heart diseases.
+                <span class="bold">Very Poor (301–400)</span> - May cause respiratory illness to the people on prolonged exposure. Effect may be more pronounced in people with lung and hear diseases.
                 <br><br>
-                <span class="bold">Severe (401-500)</span> - May cause respiratory issues in healthy people, and serious
-                health
-                issues in people
-                with lung/heart disease. Difficulties may be experienced even during light physical activity.
+                <span class="bold">Severe (401-500)</span> - May cause respiratory effects even on healthy people and serious health impacts on people with lung or heart diseases. The health impacts may be experienced even during light physical activity.
             </p1>
         </div>
     </div>
 
-
+{{ location }}
 
 
 
