@@ -14,7 +14,7 @@ import pickle
 #%%
 # importing prediction input and sequencing it
 
-all_data = pd.read_csv(r'models/input_cluster.csv')
+all_data = pd.read_csv(r'data/input_cluster.csv')
 all_data = all_data.iloc[:,1:]
 
 #%%
