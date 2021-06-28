@@ -41,7 +41,7 @@ def predict():
     location = int(location)
     
     
-    last_day = pd.to_datetime('23-03-2020')
+    last_day = pd.to_datetime('29-04-2021')
     selected_day = pd.to_datetime(date)
     days_until_today = (selected_day-last_day).days
 
