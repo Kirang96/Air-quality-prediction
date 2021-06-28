@@ -20,7 +20,7 @@ all_data = all_data.iloc[:,1:]
 #%%
 app = Flask(__name__)
 
-lstm = tf.keras.models.load_model("models/lstm_60_90_38rmse.h5")
+lstm = tf.keras.models.load_model("models/lstm_90_120_43rmse.h5")
 kmeans = pickle.load(open('models/kmeans.pkl', 'rb'))
 
 @app.route('/')
@@ -59,8 +59,8 @@ def predict():
     x_train = []
     y_train = []
 
-    n_future = 90   # Number of days we want top predict into the future
-    n_past = 60   # Number of past days we want to use to predict the future
+    n_future = 120   # Number of days we want top predict into the future
+    n_past = 90   # Number of past days we want to use to predict the future
 
     for i in range(n_past, len(train) - n_future +1):
         x_train.append(train[i - n_past:i, 0:train.shape[1]])
@@ -69,7 +69,7 @@ def predict():
     x_train, y_train = np.array(x_train), np.array(y_train)
 
      # making prediction
-    preds = lstm.predict(x_train[-50:])
+    preds = lstm.predict(x_train[-90:])
     future_predictions = scaler_predict.inverse_transform(preds)[0,:days_until_today]
     today = future_predictions[-1]
     today = round(today,2)
