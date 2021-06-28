@@ -14,13 +14,13 @@ import pickle
 #%%
 # importing prediction input and sequencing it
 
-all_data = pd.read_csv(r'data/input_cluster.csv')
+all_data = pd.read_csv(r'models/input_cluster.csv')
 all_data = all_data.iloc[:,1:]
 
 #%%
 app = Flask(__name__)
 
-lstm = tf.keras.models.load_model("models/lstm_60_900_38rmse.h5")
+lstm = tf.keras.models.load_model("models/lstm_60_90_38rmse.h5")
 kmeans = pickle.load(open('models/kmeans.pkl', 'rb'))
 
 @app.route('/')
