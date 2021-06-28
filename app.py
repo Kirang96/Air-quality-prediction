@@ -59,8 +59,8 @@ def predict():
     x_train = []
     y_train = []
 
-    n_future = 500   # Number of days we want top predict into the future
-    n_past = 500   # Number of past days we want to use to predict the future
+    n_future = 90   # Number of days we want top predict into the future
+    n_past = 60   # Number of past days we want to use to predict the future
 
     for i in range(n_past, len(train) - n_future +1):
         x_train.append(train[i - n_past:i, 0:train.shape[1]])
