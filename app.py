@@ -81,27 +81,27 @@ def predict():
         text = "Minimal impact"
         
         
-    elif 51 < today < 100:
+    elif 50 < today < 100:
         result = "Satisfactory"
         color = "rgb(126,189,1)"
         text = "May cause minor breathing discomfort to sensitive people"
         
         
         
-    elif 101< today <200:
+    elif 100< today <200:
         result = "Moderate"
         color = "rgb(242,215,2)"
         text = "May cause minor breathing discomfort to the people with lung diseases such as asthma and discomfort to people with heart disease, children and other adults."
         
         
-    elif 201 < today <300:
+    elif 200 < today <300:
         result = "Poor"
         color = "rgb(244,119,1)"
         text = "May cause minor breathing discomfort to the people on prolonged exposure and discomfort to people with heart diseases with short exposure."
        
         
         
-    elif 301< today <400:
+    elif 300< today <400:
         color = "rgb(218,33,51)"
         result = "Very poor"
         text = "May cause respiratory illness to the people on prolonged exposure. Effect may be more pronounced in people with lung and hear diseases."
