@@ -32,9 +32,20 @@ This demonstrates the [hosted AQI website](http://aqi-kochi.herokuapp.com) makin
 
 ## Why Kochi and how is air quality relevant?
 
+- The air we breathe can 
+- Air pollution can cause both short term and long term effects to our body
+- When we breathe polluted air, pollutants can enter the bloodstream and be carried to our internal organs such as the brain. This can    cause severe health problems such as asthma, cardiovascular diseases and even cancer and reduces the quality and number of years of life. 
+- Air pollution not only harms human beings, but the planet Earth as a whole.
 
+![kochi_map](https://user-images.githubusercontent.com/29313141/123814245-2c8d5d00-d913-11eb-9161-16bc361adf6d.png)
 
+- Kochi is a major port city on the Malabar Coast of India bordering the Laccadive Sea, which is a part of the Arabian Sea.
+- It is the most densely populated city in Kerala. It has very densely populated urban agglomeration.
+- It also has a geographical area of 285 km2 with population density of 4876 persons/km2 which is 13 times average population of India.
+- Kochi has also become a rapidly growing industrial, economic, transportation and cultural center in India.
+- Hence such a densely populated area should be carefully studied so that the people in Kochi could take better care of themselves.
 
+## Data collection
 
 
 
