@@ -10,7 +10,6 @@ Air quality prediction using deep learning: A case study of Kochi
 - Project structure
 - Hybrid 1D CNN LSTM network
 - Deployment using Heroku
-- Directory tree
 - Tools and technologies used
 - Credits
 - License
@@ -126,4 +125,24 @@ The data was collected from different sources:
 - These features are then input to the hidden LSTM layers which uses a cell state. LSTM layers will be able to detect the inter-dependencies between multiple columns in the dataset and save the relevant information in the cell state.
 
 ## Deployment using Heroku
+
+Deployment was done using Heroku free package which offer upto 500MB storage space.
+The required files for heroku deployment are:
+ - Python file containing the source code of the program
+ - requirements file with all the dependencies to be installed on the heroku server.
+ - Procfile which shows heroku which file to run first
+ - models required during the execution
+
+Steps followed during deployment are according to the Heroku user guide.
+
+## Tools and technologies used
+![python-programming-language](https://user-images.githubusercontent.com/29313141/124320295-3aecaa80-db99-11eb-8f13-fa8d20385277.png)
+![bootstrap](https://user-images.githubusercontent.com/29313141/124320192-0ed12980-db99-11eb-8db2-c95b18e8ab2e.png)
+![flask](https://user-images.githubusercontent.com/29313141/124320195-10025680-db99-11eb-935b-a9492d21a240.png)
+![gunicorn](https://user-images.githubusercontent.com/29313141/124320196-109aed00-db99-11eb-9043-e000eefc4a26.png)
+![spyder](https://user-images.githubusercontent.com/29313141/124320203-11cc1a00-db99-11eb-8f69-49f569723d03.png)
+![html_css](https://user-images.githubusercontent.com/29313141/124320199-11338380-db99-11eb-8805-448038a27048.jpg)
+![Tensorflow and keras](https://user-images.githubusercontent.com/29313141/124320205-1264b080-db99-11eb-93f8-8ffcd5ea37bb.jpg)
+
+
 
