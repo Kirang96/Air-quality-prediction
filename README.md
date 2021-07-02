@@ -141,8 +141,9 @@ Steps followed during deployment are according to the Heroku user guide.
 ![flask](https://user-images.githubusercontent.com/29313141/124320195-10025680-db99-11eb-935b-a9492d21a240.png)
 ![gunicorn](https://user-images.githubusercontent.com/29313141/124320196-109aed00-db99-11eb-9043-e000eefc4a26.png)
 ![spyder](https://user-images.githubusercontent.com/29313141/124320203-11cc1a00-db99-11eb-8f69-49f569723d03.png)
+![heroku](https://user-images.githubusercontent.com/29313141/124322169-9b311b80-db9c-11eb-9105-5348c5e106a8.png)
 ![html_css](https://user-images.githubusercontent.com/29313141/124320199-11338380-db99-11eb-8805-448038a27048.jpg)
 ![Tensorflow and keras](https://user-images.githubusercontent.com/29313141/124320205-1264b080-db99-11eb-93f8-8ffcd5ea37bb.jpg)
 
-
+## Credits
 
