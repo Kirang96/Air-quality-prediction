@@ -147,3 +147,9 @@ Steps followed during deployment are according to the Heroku user guide.
 
 ## Credits
 
+- Kiran george
+- Nasna Mohamedali (Environmental engineer) for helping in collection, compiling and providing insights into the data.
+- Several YouTubers including [Krish Naik](https://www.youtube.com/user/krishnaik06) and [DigitalSreeni](https://www.youtube.com/channel/UC34rW-HtPJulxr5wp2Xa04w)
+
+## License
+
