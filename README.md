@@ -3,9 +3,9 @@ Air quality prediction using deep learning: A case study of Kochi
 
 ### TABLE OF CONTENTS:
 
-- [Demo](#https://github.com/Kirang96/Air-quality-prediction#demo)
-- [What is the project about?](#https://github.com/Kirang96/Air-quality-prediction#what-is-the-project-about)
-- [Why Kochi and how is air quality relevant?](#https://github.com/Kirang96/Air-quality-prediction#why-kochi-and-how-is-air-quality-relevant)
+- [Demo](https://github.com/Kirang96/Air-quality-prediction#demo)
+- [What is the project about?](https://github.com/Kirang96/Air-quality-prediction#what-is-the-project-about)
+- [Why Kochi and how is air quality relevant?](https://github.com/Kirang96/Air-quality-prediction#why-kochi-and-how-is-air-quality-relevant)
 - [Data collection](https://github.com/Kirang96/Air-quality-prediction#data-collection)
 - [Project structure](https://github.com/Kirang96/Air-quality-prediction#project-structure)
 - [Hybrid 1D CNN LSTM network](https://github.com/Kirang96/Air-quality-prediction#hybrid-1d-cnn-lstm-network)
