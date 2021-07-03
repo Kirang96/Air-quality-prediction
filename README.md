@@ -3,16 +3,15 @@ Air quality prediction using deep learning: A case study of Kochi
 
 ### TABLE OF CONTENTS:
 
-- Demo
-- What is the project about?
-- Why Kochi and how is air quality relevant?
-- Data collection
-- Project structure
-- Hybrid 1D CNN LSTM network
-- Deployment using Heroku
-- Tools and technologies used
-- Credits
-- License
+- [Demo](#https://github.com/Kirang96/Air-quality-prediction#demo)
+- [What is the project about?](#https://github.com/Kirang96/Air-quality-prediction#what-is-the-project-about)
+- [Why Kochi and how is air quality relevant?](#https://github.com/Kirang96/Air-quality-prediction#why-kochi-and-how-is-air-quality-relevant)
+- [Data collection](https://github.com/Kirang96/Air-quality-prediction#data-collection)
+- [Project structure](https://github.com/Kirang96/Air-quality-prediction#project-structure)
+- [Hybrid 1D CNN LSTM network](https://github.com/Kirang96/Air-quality-prediction#hybrid-1d-cnn-lstm-network)
+- [Deployment using Heroku](https://github.com/Kirang96/Air-quality-prediction#deployment-using-heroku)
+- [Tools and technologies used](https://github.com/Kirang96/Air-quality-prediction#tools-and-technologies-used)
+- [License](https://github.com/Kirang96/Air-quality-prediction#license)
 
 ## DEMO
 
@@ -31,7 +30,7 @@ This demonstrates the [hosted AQI website](http://aqi-kochi.herokuapp.com) makin
 
 ## WHY KOCHI AND HOW IS AIR QUALITY RELEVANT?
 
-- The air we breathe can 
+- The air we breathe can have a huge impact on our lives.
 - Air pollution can cause both short term and long term effects to our body
 - When we breathe polluted air, pollutants can enter the bloodstream and be carried to our internal organs such as the brain. This can    cause severe health problems such as asthma, cardiovascular diseases and even cancer and reduces the quality and number of years of life. 
 - Air pollution not only harms human beings, but the planet Earth as a whole.
@@ -144,12 +143,6 @@ Steps followed during deployment are according to the Heroku user guide.
 ![heroku](https://user-images.githubusercontent.com/29313141/124322169-9b311b80-db9c-11eb-9105-5348c5e106a8.png)
 ![html_css](https://user-images.githubusercontent.com/29313141/124320199-11338380-db99-11eb-8805-448038a27048.jpg)
 ![Tensorflow and keras](https://user-images.githubusercontent.com/29313141/124320205-1264b080-db99-11eb-93f8-8ffcd5ea37bb.jpg)
-
-## Credits
-
-- Kiran george
-- Nasna Mohamedali (Environmental engineer) for helping in collection, compiling and providing insights into the data.
-- Several YouTubers including [Krish Naik](https://www.youtube.com/user/krishnaik06) and [DigitalSreeni](https://www.youtube.com/channel/UC34rW-HtPJulxr5wp2Xa04w)
 
 ## License
 
